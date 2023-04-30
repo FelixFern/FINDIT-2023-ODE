@@ -1,6 +1,5 @@
 from sklearn.ensemble import RandomForestClassifier
 
-
 class RandomForest:
     def __init__(self, X, y, X_test, depth=2):
         self.X = X
